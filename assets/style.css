@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #F5F5DC;
+}
+
+.main{
+	position: absolute;
+  width: 400px;
+  height: 100%;
+  z-index: 15;
+  top: 30%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+  text-align: center;
+}
+
+.option, .cell, .startoption {
+  display: inline-block;
+}
+
+.checkbox {
+  margin-left: 20px;
+}
+
+.mode {
+  margin-top: 30px;
+}
+
+#normal, .count {
+  margin-right: 40px;
+}
+
+.gamebutton {
+  margin-top: 5%;
+}
+
+.level {
+  margin-left: 50px;
+  width: 100px;
+  background: #fff;
+}
+
+
+.cell {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    font-size: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+.cell:focus, .cell:active{
+  border: none;
+  outline: none;
+}
+
+.buttonx {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50));
+}
+
+.startGame {
+  margin-top: 20px
+}
+
+.startbtn{
+  width: 300px;
+  font-size: 20px;
+}
+
+.winx{
+  background: #f4c4f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#b1 {
+  background-color: #4CAF50; 
+}
+
+#b2 {
+  background-color: #FF0000; 
+}
+
+#b3 {
+  background-color: #FFFF00; 
+}
+
+#b4 {
+  background-color: #0000FF; 
+}
